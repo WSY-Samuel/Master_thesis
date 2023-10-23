@@ -60,6 +60,7 @@ for i  in range(1349,len(rv_all)):
 xx,y = np.array(xx),np.array(y) # array特性,行列相反
 xx = np.reshape(xx, (xx.shape[0],xx.shape[1],1)) #轉成3維,INDEX=0 是前1349個
 # 3維的意義:[樣本\時間步\功能]
+
 #Build the model
 # 共五層:3 hidden layers + 2 fully connected layers
 random.seed(0)
