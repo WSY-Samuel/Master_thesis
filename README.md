@@ -14,7 +14,7 @@
 **-> Using sliding window algorithm <-**  
 ## Data Preprocessing
  1. Translating to every day of RV
- 2. (ARMA-GARCH)Making sure data is stable by ADF
+ 2. (ARMA-GARCH)Making sure data is stable by ADF and ACF,PACF
  3. Deciding lag of ARMA by AIC
 ## Model Building
 ### ARMA(0,1)-GARCH(1,1)
