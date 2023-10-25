@@ -16,7 +16,7 @@ Evaluation indicators:MAE,RMSE,MAPE
  1. Translating to every day of RV
  2. (ARMA-GARCH)Making sure data is stable by ADF
  3. Deciding lag of ARMA by AIC
-## Model
+## Model Building
 ### ARMA(0,1)-GARCH(1,1)
 ### Prophet
 ### LSTM  
