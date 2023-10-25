@@ -4,7 +4,7 @@
 ## Data description
 Using data: BTC,ETH,BNB  
 Data sources: Binance API  
-Proxy Variable: Realized Volatility(RV) The best way to evaluate standard deviation of cryptocurrency price in a period of time.  
+Proxy Variable: Realized Volatility(RV),The best way to evaluate standard deviation of cryptocurrency price in a period of time.  
  **In this study I bulit the day of RV with every 3min,5min and 15min**  
 Number of data： 879,952, 529,153 and 176,783
 Date:2017/11/06~2022/11/27  
