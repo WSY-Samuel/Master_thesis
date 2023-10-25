@@ -11,7 +11,7 @@
   in-sample observations:2017/11/06 ~ 2021/05/21(1,293 days)  
   out-of-sample observations:2021/05/22 ~ 2022/11/27(555 days)  
 ### Evaluation indicators: MAE,RMSE,MAPE  
-**Using sliding window algorithm**  
+**-> Using sliding window algorithm <-**  
 ## Data Preprocessing
  1. Translating to every day of RV
  2. (ARMA-GARCH)Making sure data is stable by ADF
