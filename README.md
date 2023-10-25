@@ -8,8 +8,8 @@
  **-> In this study I bulit the day of RV with every 3min,5min and 15min <-**  
 4. Number of data： 879,952 and 529,153 and 176,783
 5. Date: 2017/11/06~2022/11/27  
-  in-sample observations:2017/11/06 ~ 2021/05/21(1,293 days)  
-  out-of-sample observations:2021/05/22 ~ 2022/11/27(555 days)  
+  in-sample observations:2017/11/06-2021/05/21(1,293 days)  
+  out-of-sample observations:2021/05/22-2022/11/27(555 days)  
 6. Evaluation indicators: MAE,RMSE,MAPE  
 **-> Using sliding window algorithm <-**  
 ## Data Preprocessing
