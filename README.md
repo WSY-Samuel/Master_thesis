@@ -2,15 +2,15 @@
  Predicting the accuracy of cryptocurrency volatility with ARMA-GARCH, Prophet and LSTM models
 
 ## Data description
-###Using data: BTC,ETH,BNB  
-###Data sources: Binance API  
-###Proxy Variable: Realized Volatility(RV).  
+### Using data: BTC,ETH,BNB  
+### Data sources: Binance API  
+### Proxy Variable: Realized Volatility(RV).  
  **-> In this study I bulit the day of RV with every 3min,5min and 15min <-**  
-###Number of data： 879,952, 529,153 and 176,783
-###Date: 2017/11/06~2022/11/27  
+### Number of data： 879,952, 529,153 and 176,783
+### Date: 2017/11/06~2022/11/27  
   in-sample observations:2017/11/06 ~ 2021/05/21(1,293 days)  
   out-of-sample observations:2021/05/22 ~ 2022/11/27(555 days)  
-###Evaluation indicators: MAE,RMSE,MAPE  
+### Evaluation indicators: MAE,RMSE,MAPE  
 **Using sliding window algorithm**  
 ## Data Preprocessing
  1. Translating to every day of RV
