@@ -25,16 +25,28 @@
    - Root Mean Squared Error (RMSE).
    - Mean Absolute Percentage Error (MAPE).
 ## Data Preprocessing
- 1. Translating to every day of RV
- 2. (ARMA-GARCH)Making sure data is stable by ADF and ACF,PACF
- 3. Deciding lag of ARMA by AIC
+1. **Translating to Daily Realized Volatility (RV):**
+   - The process involves translating the data to daily Realized Volatility (RV).
+
+2. **Stability Check using ARMA-GARCH:**
+   - Employing Autoregressive Integrated Moving Average (ARMA) and Generalized Autoregressive Conditional Heteroskedasticity (GARCH) models for stability verification.
+   - Conducting Augmented Dickey-Fuller (ADF) tests and examining Autocorrelation Function (ACF) and Partial Autocorrelation Function (PACF) plots to ensure data stability.
+
+3. **Lag Selection for ARMA using AIC:**
+   - Determining the lag order for the Autoregressive Moving Average (ARMA) model based on the Akaike Information Criterion (AIC).
 ## Model Building
 ### ARMA(0,1)-GARCH(1,1)
 ### Prophet
 ### LSTM  
- 1. 3 layers of LSTM and 2 layers of connettion
- 2. learning rate:0.0001
- 3. Neurons：(10, 4, 2)
- 4. Dropout rating:(0.3, 0.8, 0.8)
-## Concludion
-Overall,the LSTM model performs best, and it can be clearly seen that the accuracy is significantly better than the other two. The Prophet model performed the worst this time around.
+1. Architecture:
+   - Three layers of LSTM.
+   - Two fully connected layers.
+
+2. Hyperparameters:
+   - Learning Rate: 0.0001
+   - Neurons: (10, 4, 2)
+   - Dropout Rates: (0.3, 0.8, 0.8)
+
+### Conclusion:
+In summary, the LSTM model demonstrates superior performance. The accuracy is notably better compared to the other two models. Conversely, the Prophet model exhibits the least favorable performance in this scenario.
+
