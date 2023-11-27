@@ -35,9 +35,9 @@
 3. **Lag Selection for ARMA using AIC:**
    - Determining the lag order for the Autoregressive Moving Average (ARMA) model based on the Akaike Information Criterion (AIC).
 ## Model Building
-### ARMA(0,1)-GARCH(1,1)
-### Prophet
-### LSTM  
+### - ARMA(0,1)-GARCH(1,1)
+### - Prophet
+### - LSTM  
 1. Architecture:
    - Three layers of LSTM.
    - Two fully connected layers.
